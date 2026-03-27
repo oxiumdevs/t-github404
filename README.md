@@ -21,4 +21,15 @@ Lastly, follow the steps listed after you click "Use Template"
 ### ![all done!](https://img.shields.io/badge/all-done!-8B0000?style=flat-square&labelColor=FFFFFF&color=8B0000&logoColor=white) 
 Make sure you star this template! It motivates me to keep posting them for you guys.
 ---
--# last updated 26.3.26 - 7.06 pm
+
+# Side note
+
+Some things will become outdated in the next github updates, I will try my best to keep up. Bear with me. One person here, not a team.
+
+---
+
+# Updates
+
+-# last updated 27.3.26 – 1:38 pm
+
+- Created redirect.
