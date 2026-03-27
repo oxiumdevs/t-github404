@@ -77,3 +77,6 @@ Click on @githubstatus now.
 Now your fake 404 page should be done. If not, create an issue [here](https://github.com/oxiumdevs/t-github404).
 ---
 -# last updated 26.3.26 - 8.07 pm
+---
+## Side note:
+I know the directions repeat, I am fixing it soon.
