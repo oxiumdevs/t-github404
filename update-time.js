@@ -1,16 +1,15 @@
 const fs = require("fs");
 
-const readme = fs.readFileSync("STEPS.md", "utf8");
+const filePath = "steps/steps.md"; // 👈 YOUR FILE
 
-// last updated = now (since action just ran)
-const now = new Date();
+const content = fs.readFileSync(filePath, "utf8");
 
-// show "0m ago"
-const timeString = "0m ago";
+// force visible change
+const timeString = new Date().toISOString();
 
-const updated = readme.replace(
+const updated = content.replace(
   /<!--TIME-->.*?<!--TIME-->/,
   `<!--TIME-->${timeString}<!--TIME-->`
 );
 
-fs.writeFileSync("STEPS.md", updated);
+fs.writeFileSync(filePath, updated);
