@@ -1,15 +1,22 @@
 const fs = require("fs");
 
-const filePath = "steps/steps.md"; // 👈 YOUR FILE
+const filePath = "steps/STEPS.md";
 
-const content = fs.readFileSync(filePath, "utf8");
+let content = fs.readFileSync(filePath, "utf8");
 
-// force visible change
+// ALWAYS changes → forces commit
 const timeString = new Date().toISOString();
 
-const updated = content.replace(
-  /<!--TIME-->.*?<!--TIME-->/,
+if (!content.includes("<!--TIME-->")) {
+  console.log("TIME marker not found!");
+  process.exit(1);
+}
+
+content = content.replace(
+  /<!--TIME-->.*?<!--TIME-->/s,
   `<!--TIME-->${timeString}<!--TIME-->`
 );
 
-fs.writeFileSync(filePath, updated);
+fs.writeFileSync(filePath, content);
+
+console.log("Updated time:", timeString);
