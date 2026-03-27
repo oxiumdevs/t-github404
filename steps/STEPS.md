@@ -1,7 +1,7 @@
 # Instructions
 
 ## ![step one](https://img.shields.io/badge/step-one-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
-<img src=".../i/1.png" width="300">
+<img src=".../i/1.png" width="300"></img>
 Click on the "README.md" file.
 ---
 ## ![step two](https://img.shields.io/badge/step-two-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
