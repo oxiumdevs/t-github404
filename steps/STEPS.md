@@ -6,31 +6,38 @@
 Click on the "README.md" file.
 ---
 ## ![step two](https://img.shields.io/badge/step-two-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
-![Click on the three dots](steps/i/2.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/2.png" width="600"></img>
+
 Click on the three dots located near the top right of your screen.
 ---
 ## ![step three](https://img.shields.io/badge/step-three-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
-![Click the delete option](steps/i/3.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/3.png" width="600"></img>
+
 Click on "delete" in the menu.
 ---
 ## ![step four](https://img.shields.io/badge/step-four-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
-![Click commit](steps/i/4.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/4.png" width="600"></img>
+
 Click commit - this way it actually deletes the README.md instead of restores it.
 ---
 ## ![step five](https://img.shields.io/badge/step-five-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
-![Click commit again](steps/i/5.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/5.png" width="600"></img>
+
 Click commit once more - this just confirms the confirming. Why? I don't know.
 ---
 ## ![step six](https://img.shields.io/badge/step-six-8B0000?style=flat-square&labelColor=000000&color=8B0000&logoColor=white) 
-![Create a new README.md](steps/i/6.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/6.png" width="600"></img>
+
 Create the new README.md, where you can tell users where you got this amazingness, or not, it's up to you.
 ---
 ### ![step seven](https://img.shields.io/badge/step-seven-8B0000?style=flat-square&labelColor=FFFFFF&color=8B0000&logoColor=white) 
-![Click on your index.html file](steps/i/7.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/7.png" width="600"></img>
+
 Click on the index.html file
 ---
 ### ![step eight](https://img.shields.io/badge/step-eight-8B0000?style=flat-square&labelColor=FFFFFF&color=8B0000&logoColor=white) 
-![Click on the pencil icon, then replace the link above @githubstatus](steps/i/8.png)
+<img src="https://oxiumdevs.github.io/t-github404/steps/i/8.png" width="600"></img>
+
 Click on the pencil icon - don't try to edit without doing so. It won't work - trust me; I've tried. Then scroll to the bottom to find @githubstatus, then replace the link above.
 ---
 ### ![step nine](https://img.shields.io/badge/step-nine-8B0000?style=flat-square&labelColor=FFFFFF&color=8B0000&logoColor=white) 
