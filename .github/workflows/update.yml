@@ -1,0 +1,24 @@
+name: Update README time
+
+on:
+  schedule:
+    - cron: "* * * * *"  # every minute
+  workflow_dispatch:     # allows manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update time
+        run: node update-time.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "update time" || echo "no changes"
+          git push
