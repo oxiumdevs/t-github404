@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const readme = fs.readFileSync("README.md", "utf8");
+const readme = fs.readFileSync("STEPS.md", "utf8");
 
 // last updated = now (since action just ran)
 const now = new Date();
