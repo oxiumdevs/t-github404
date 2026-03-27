@@ -13,4 +13,4 @@ const updated = readme.replace(
   `<!--TIME-->${timeString}<!--TIME-->`
 );
 
-fs.writeFileSync("README.md", updated);
+fs.writeFileSync("STEPS.md", updated);
